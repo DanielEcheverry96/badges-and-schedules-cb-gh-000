@@ -31,3 +31,9 @@ def printer (array)
     puts item
   end
 end
+
+#new_array = []
+#array.each_with_index do |name, index|
+#  new_array[index] = "Hello, my name is #{name}."
+#end
+#new_array
