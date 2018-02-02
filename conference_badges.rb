@@ -18,3 +18,8 @@ def assign_rooms(array)
   end
   new_array
 end
+
+def printer (array)
+  badge_Array = batch_badge_creator(array) 
+  rooms_Array = assign_rooms(array)
+end
