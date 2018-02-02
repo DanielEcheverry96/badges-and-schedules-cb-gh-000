@@ -22,7 +22,7 @@ end
 def printer (array)
   badge_Array = batch_badge_creator(array)
   rooms_Array = assign_rooms(array)
-  
+
   badge_Array.each do |item|
     puts item
   end
