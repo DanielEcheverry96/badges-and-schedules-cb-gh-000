@@ -25,4 +25,8 @@ def printer (array)
   badge_Array.each do |item|
     puts item
   end
+  
+  rooms_Array.each do |item|
+    puts item
+  end
 end
