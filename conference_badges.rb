@@ -4,4 +4,6 @@ def badge_maker(array)
   array.each_with_index do |item, index|
     new_array[index] = "Hello, my name is #{item}."
   end
+  new_array
 end
+
