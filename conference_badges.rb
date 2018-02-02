@@ -8,7 +8,7 @@ def batch_badge_creator(array)
   array.each_with_index do |item, index|
     new_array[index] = item
   end
-  new_array 
+  new_array
 end
 
 def assign_rooms(array)
